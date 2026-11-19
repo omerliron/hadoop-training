@@ -14,7 +14,7 @@ def main(separator='\t'):
     for words in data:
         # tab-delimited; the trivial word count is 1
         for word in words:
-            # Exercise 2: strip trailing commas/dots and ignore case
+            # strip trailing commas/dots and ignore case
             word = word.rstrip(',.').lower()
             if word:
                 print ('%s%s%d' % (word, separator, 1))
