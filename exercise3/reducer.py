@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Exercise 3 - reducer: top 3 words (run with -numReduceTasks 1)
+# Exercise 3 - reducer
 
 import heapq
 from itertools import groupby
