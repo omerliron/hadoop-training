@@ -21,7 +21,7 @@ def main(separator='\t'):
         except ValueError:
             # count was not a number, so silently discard this item
             pass
-    # Exercise 3: keep only the 3 highest counts, highest first
+    # keep only the 3 highest counts
     for word, count in heapq.nlargest(3, totals, key=itemgetter(1)):
         print ("%s%s%d" % (word, separator, count))
 
