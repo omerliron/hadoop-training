@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Exercise 2 - reducer (unchanged)
+# Exercise 2 - reducer 
 from itertools import groupby
 from operator import itemgetter
 import sys
